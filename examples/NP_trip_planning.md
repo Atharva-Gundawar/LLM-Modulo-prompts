@@ -1,7 +1,6 @@
 ### Prompt to LLM
 ```
-You are an expert at planning trips. You are given a few constraints regarding the cities to visit and the durations of staying at each city. You are also given the flight information between the cities('and' suggests flights are possible both ways and 'from - to -' suggests one way 
-flights). You can travel to any city only once.
+You are an expert at planning trips. You are given a few constraints regarding the cities to visit and the durations of staying at each city. You are also given the flight information between the cities('and' suggests flights are possible both ways and 'from - to -' suggests one way flights). You can travel to any city only once.
 Produce only one plan, strictly adhering to the format shown in the examples below, without any extra information. Your answer shold start with 'SOLUTION:'.
 Here are a few example tasks and solutions:
 
@@ -205,9 +204,8 @@ SOLUTION: Here is the trip plan for visiting the 10 European cities for 25 days:
 ```
 ### Backprompt
 ```
-You are an expert at planning trips. Fix the below given trip schedule such that it meets as many specified constraints as possible. You are given a few constraints regarding the cities to visit and the durations of staying at each city. You are also given the flight information between the 
-cities. 
-Produce only one plan, strictly adhering to the format shown in the examples below, without any extra information. 
+You are an expert at planning trips. Fix the below given trip schedule such that it meets as many specified constraints as possible. You are given a few constraints regarding the cities to visit and the durations of staying at each city. You are also given the flight information between the cities('and' suggests flights are possible both ways and 'from - to -' suggests one way flights). You can travel to any city only once.
+Produce only one plan, strictly adhering to the format shown in the examples below, without any extra information. Your answer shold start with 'SOLUTION:'.
 Here are a few example tasks and solutions:
 
 TASK: You plan to visit 10 European cities for 21 days in total. You only take direct flights to commute between cities. You plan to stay in Vienna for 3 days. You want to spend 5 days in Frankfurt. You want to spend 2 days in Oslo. You are going to attend a wedding in Oslo between day 20 and day 

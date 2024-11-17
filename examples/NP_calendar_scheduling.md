@@ -1,7 +1,6 @@
 ### Prompt to LLM
 ```
-You are an expert at scheduling meetings. You are given a few constraints on the existing schedule of each participant, the meeting duration, and possibly some preferences on the meeting time. Note there exists a solution that works with existing schedule of every participant. Produce only one 
-meeting time, strictly adhering to the format shown in the examples below, without providing any extra information. Here are a few example tasks and solutions:
+You are an expert at scheduling meetings. You are given a few constraints on the existing schedule of each participant, the meeting duration, and possibly some preferences on the meeting time. Note there exists a solution that works with existing schedule of every participant. Produce only one meeting time, strictly adhering to the format shown in the examples below, without providing any extra information. Here are a few example tasks and solutions:
 
 TASK: You need to schedule a meeting for Roger, Karen and Dorothy for half an hour between the work hours of 9:00 to 17:00 on Monday. 
 
@@ -72,8 +71,7 @@ Here is the proposed time: Monday, 12:00 - 13:00
 ```
 ### Backprompt
 ```
-You are an expert at scheduling meetings. You are given a few constraints on the existing schedule of each participant, the meeting duration, and possibly some preferences on the meeting time. Propose a different time to meet than the one provided below such that it meets as many 
-specified constraints as possible. Note there exists a solution that works with existing schedule of every participant. Produce only one meeting time, strictly adhering to the format shown in the examples below, without providing any extra information. Here are a few example tasks and solutions:
+You are an expert at scheduling meetings. You are given a few constraints on the existing schedule of each participant, the meeting duration, and possibly some preferences on the meeting time. Propose a different time to meet than the one provided below such that it meets as many specified constraints as possible. Note there exists a solution that works with existing schedule of every participant. Produce only one meeting time, strictly adhering to the format shown in the examples below, without providing any extra information. Here are a few example tasks and solutions:
 
 TASK: You need to schedule a meeting for Roger, Karen and Dorothy for half an hour between the work hours of 9:00 to 17:00 on Monday. 
 
