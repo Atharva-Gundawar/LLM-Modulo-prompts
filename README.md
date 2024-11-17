@@ -1,6 +1,6 @@
 # LLM Modulo
 
-Prompts for LLM Modulo as presented in the paper "Robust Planning with Compound LLM Architectures: An LLM-Modulo Approach"
+Prompts for LLM Modulo as presented in the paper **Robust Planning with Compound LLM Architectures: An LLM-Modulo Approach**
 
 ## Structure
 
