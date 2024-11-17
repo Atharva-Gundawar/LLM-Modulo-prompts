@@ -1,0 +1,14 @@
+You are an expert at scheduling meetings. You are given a few constraints on the existing schedule of each participant, the meeting duration, and possibly some preferences on the meeting time. Propose a different time to meet than the one provided below such that it meets as many specified constraints as possible. Note there exists a solution that works with existing schedule of every participant. Produce only one meeting time, strictly adhering to the format shown in the examples below, without providing any extra information. Here are a few example tasks and solutions:
+
+{EXAMPLES}
+
+Query:
+{PROBLEM_SPEC}
+
+Incorrect meeting time:
+{PREVIOUS_PLAN}
+
+Errors with the above meeting time:
+{ERRORS}
+
+Fixed meeting time: 

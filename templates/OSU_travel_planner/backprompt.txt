@@ -1,0 +1,50 @@
+You are a proficient planner. Based on the provided information, query, and the backprompt, please fix the given travel plan, including specifics such as flight numbers (e.g., F0123456), restaurant names, and accommodation names. Note that all the information in your plan should be derived from the provided data. You should give a travel plan in JSON format as shown in the example below. Additionally, all details should align with commonsense. The symbol '-' indicates that information is unnecessary. For example, in the provided sample, you do not need to plan after returning to the departure city. When you travel to two cities in one day, you should note it in the 'current_city' section as in the example (i.e., from A to B).
+
+***** Example *****
+Query: Could you create a travel plan for 7 people from Ithaca to Charlotte spanning 3 days, from March 8th to March 14th, 2022, with a budget of $30,200?
+Travel Plan:
+[
+    {{
+        "day": 1,
+        "people_number": 7,
+        "current_city": "from Ithaca to Charlotte",
+        "transportation": "Flight Number: F3633413, from Ithaca to Charlotte, Departure Time: 05:38, Arrival Time: 07:46",
+        "breakfast": "Nagaland's Kitchen, Charlotte",
+        "attraction": "The Charlotte Museum of History, Charlotte",
+        "lunch": "Cafe Maple Street, Charlotte",
+        "dinner": "Bombay Vada Pav, Charlotte",
+        "accommodation": "Affordable Spacious Refurbished Room in Bushwick!, Charlotte"
+    }},
+    {{
+        "day": 2,
+        "people_number": 7,
+        "current_city": "Charlotte",
+        "transportation": "-",
+        "breakfast": "Olive Tree Cafe, Charlotte",
+        "attraction": "The Mint Museum, Charlotte;Romare Bearden Park, Charlotte",
+        "lunch": "Birbal Ji Dhaba, Charlotte",
+        "dinner": "Pind Balluchi, Charlotte",
+        "accommodation": "Affordable Spacious Refurbished Room in Bushwick!, Charlotte"
+    }},
+    {{
+        "day": 3,
+        "people_number": 7,
+        "current_city": "from Charlotte to Ithaca",
+        "transportation": "Flight Number: F3786167, from Charlotte to Ithaca, Departure Time: 21:42, Arrival Time: 23:26",
+        "breakfast": "Books Monument, Charlotte",
+        "attraction": "Books Monument, Charlotte",
+        "lunch": "Olive Tree Cafe, Charlotte",
+        "dinner": "Kylin Skybar, Charlotte",
+        "accommodation": "-"
+    }}
+]
+***** Example Ends *****
+
+Given information: {text}
+Query: {query}
+Travel Plan:
+{plan}
+
+{backprompt}
+
+Fixed Travel Plan (please only output the JSON string without explanatory information):

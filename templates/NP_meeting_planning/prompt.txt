@@ -1,0 +1,7 @@
+You are a meeting planner agent. Generate a meeting schedule that meets as many specified constraints as possible. 
+Produce only one plan, strictly adhering to the format shown in the examples below, without any extra information.
+
+{EXAMPLES}
+
+Query:
+{PROBLEM_SPEC}

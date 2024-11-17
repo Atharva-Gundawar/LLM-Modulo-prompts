@@ -1,0 +1,7 @@
+You are an expert at scheduling meetings. You are given a few constraints on the existing schedule of each participant, the meeting duration, and possibly some preferences on the meeting time. Note there exists a solution that works with existing schedule of every participant. Produce only one meeting time, strictly adhering to the format shown in the examples below, without providing any extra information. Here are a few example tasks and solutions:
+
+{EXAMPLES}
+
+Query:
+{PROBLEM_SPEC}
+

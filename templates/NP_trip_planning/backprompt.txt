@@ -1,0 +1,16 @@
+You are an expert at planning trips. Fix the below given trip schedule such that it meets as many specified constraints as possible. You are given a few constraints regarding the cities to visit and the durations of staying at each city. You are also given the flight information between the cities('and' suggests flights are possible both ways and 'from - to -' suggests one way flights). You can travel to any city only once.
+Produce only one plan, strictly adhering to the format shown in the examples below, without any extra information. Your answer shold start with 'SOLUTION:'.
+Here are a few example tasks and solutions:
+
+{EXAMPLES}
+
+Query:
+{PROBLEM_SPEC}
+
+Incorrect plan:
+{PREVIOUS_PLAN}
+
+Errors with the above plan:
+{ERRORS}
+
+Fixed plan: 

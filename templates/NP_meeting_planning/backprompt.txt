@@ -1,0 +1,15 @@
+You are a meeting planner agent. Fix the below given meeting schedule such that it meets as many specified constraints as possible. 
+Produce only one plan, strictly adhering to the format shown in the examples below, without any extra information.
+
+{EXAMPLES}
+
+Query:
+{PROBLEM_SPEC}
+
+Incorrect plan:
+{PREVIOUS_PLAN}
+
+Errors with the above plan:
+{ERRORS}
+
+Fixed plan: (Your response should start with 'SOLUTION:', and follow the same solution format as shown above.)
